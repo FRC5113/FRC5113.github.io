@@ -54,9 +54,9 @@ app.post('/submit', (req, res) => {
 });
 
 // Server IP and port configuration
-const ip =  '192.168.1.162';
+const ip =  'FRC5113.github.io';
 const port = 3001;
 
 app.listen(port, ip, () => {
-  console.log(`Server running at http://${ip}:${port}/`);
+  console.log(`Server running at https://${ip}`);
 });
