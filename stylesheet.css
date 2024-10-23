@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+.image a:hover{
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0c154;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: bold;
+}
+section {
+    padding: 50px;
+    background-color: #fff;
+}
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-content h2 {
+    font-size: 2rem;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+.about-content p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+}
+.parent {
+text-align: center;
+background-color: #ffcc00;
+}
+.child {
+display: inline-block;
+padding: 1rem 1em;
+vertical-align: middle;
+}
+.doc-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.doc-title {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.doc-section {
+    margin-bottom: 30px;
+    background-color: #fff;  /* This ensures the entire section has the same background color */
+    padding-bottom: 2px;  /* You can adjust this value as needed */
+    padding-top: 20px;     /* Add padding on top for consistency */
+}
+
+.centered {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.doc-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.doc-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+.doc-section code {
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    color: #333;
+}
+.iframe-container {
+    max-width: 1200px;  /* Adjust this value if needed */
+    margin: 0 auto;     /* Centers the iframe horizontally */
+    padding: 0 20px;    /* Adds padding on the sides */
+    text-align: center; /* Centers the iframe itself */
+}
+
+iframe {
+    width: 100%;
+    max-width: 1000px;  /* You can adjust the maximum width for the iframe */
+    height: 3000px;
+    border: none;       /* Removes iframe border */
+}
