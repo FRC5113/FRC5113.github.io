@@ -12,7 +12,6 @@ header {
     text-align: center;
 }
 .image a:hover{
-    background-color: #ffcc00;
     color: #333;
     padding: 20px;
     text-align: center;
@@ -90,6 +89,11 @@ vertical-align: middle;
     padding-top: 20px;     /* Add padding on top for consistency */
 }
 
+.centered {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .doc-section h3 {
     font-size: 1.5rem;
@@ -107,4 +111,17 @@ vertical-align: middle;
     padding: 5px;
     border-radius: 5px;
     color: #333;
+}
+.iframe-container {
+    max-width: 1200px;  /* Adjust this value if needed */
+    margin: 0 auto;     /* Centers the iframe horizontally */
+    padding: 0 20px;    /* Adds padding on the sides */
+    text-align: center; /* Centers the iframe itself */
+}
+
+iframe {
+    width: 100%;
+    max-width: 1000px;  /* You can adjust the maximum width for the iframe */
+    height: 3000px;
+    border: none;       /* Removes iframe border */
 }
