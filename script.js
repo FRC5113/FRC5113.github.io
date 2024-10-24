@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
             misc: misc.value
         };
         function sanitizeData(data) {
-            return data.replace(/[';()]/g, "");
+            return data.replace(/['";()]/g, "");
           }
         // Send data to the server
         fetch('http://72.82.185.162:3001//submit', {  // Updated to match server IP
