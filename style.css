@@ -2,8 +2,11 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
 .header {
   background: url("./uploads/1/1/4/8/114880235/background-images/387359037.jpg")
     no-repeat center center;
@@ -14,7 +17,6 @@ body {
   justify-content: center;
   color: #fff;
   text-align: center;
-  
 }
 .header h1 {
   font-size: 3em;
@@ -26,7 +28,7 @@ body {
 }
 .content {
   padding: 20px;
- 
+  flex: 1; /* <-- lets content grow to push footer down */
 }
 .content h2 {
   font-size: 2em;
@@ -40,10 +42,12 @@ body {
   text-align: right;
   padding: 10px;
   background: #f1f1f1;
-  position: relative;
-  bottom: 0;
-  width: 99%;
-  bottom: 0;
+  width: 100%;
+  margin-top: 0;
+  /* remove position and bottom so footer participates in layout */
+}
+.footer a, .footer p {
+  margin-right: 1%;
 }
 .nav {
   display: flex;
